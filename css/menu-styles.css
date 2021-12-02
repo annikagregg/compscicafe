@@ -6,9 +6,11 @@
       margin: 0;
       padding: 0;
       font-family: 'Raleway', sans-serif;
-      font-size:12px;
+      
       }
-
+    p{
+        font-size: 14px;
+      }
     body{
         background-color: #D8DBE2;
     }
@@ -51,7 +53,7 @@
 
      
     .navbar {
-    background: #3e8fe680;
+    background: #A9BCD080;
     height: 100%;
     }
  
@@ -195,9 +197,11 @@
         margin: 0;
         padding: 0;
         font-family: 'Raleway', sans-serif;
-        font-size: 12px;
+        
         }
-  
+        p{
+            font-size: 14px;
+          }
       body{
           background-color: #D8DBE2;
       }
