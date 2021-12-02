@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-*{
-    font-size: 12px;
-}
+
 @media (max-width: 768px){
 
     *{
@@ -53,7 +51,7 @@
 
      
     .navbar {
-    background: #A9BCD080;
+    background: #3e8fe680;
     height: 100%;
     }
  
