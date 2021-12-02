@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" 
+  content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact | Comp Sci Cafe</title>
+  <link rel = "stylesheet" href ="css/form-styles.css">
+</head>
+
+<body>
+    <div class="grid-layout">
+        
+        <header>
+            <div class= 'nav-bar'>
+                <nav>
+                <div class="nav-items">
+                    <div class="btn"><a href= "index.html">home</a></div>
+                    <div class="btn"><a href= "Menu.html">menu</a></div>
+                    <div class="btn"><a href= "contact.html">contact</a></div>
+                </div>
+                </nav>
+            </div>
+            <div class= "icon">
+                <img src="img/cafe-icon.png" alt="Coffee Icon"/>
+            </div>
+        </header>
+
+        <section class= "contact-info">
+            
+            <h1>
+                Contact Us
+            </h1>
+            <p>
+                We would be happy to hear from you and will get back to you as soon as possible! <br>
+                You can find information about our hours <a href="index.html">here</a> and our menu <a href="Menu.html">here</a>! <br>
+                Cafe phone number: 919-436-8756 <br>
+                Email: compsci-cafe@cafe.net <br>
+                Follow us on social media! @CompSci-Cafe
+            </p>
+    
+            
+            
+        </section>
+    
+        <section class= "form contact-question">
+            <h2> Would you like to join our team?</h2>
+            <div class="btn app-link"><a href="application-pg.html">Apply here!</a></div><br>
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>
+                    <h2>Questions?</h2>
+                    </legend>
+                    
+                    <label for "username"> Name:</label>
+                        <br> 
+                    <input type="text" name="username" id="username" placeholder="your name here" value="" required />
+                    
+                    <br><br>
+                    
+                    <label for "email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="your email here" value="" required/>
+                    
+                        <br><br>
+                    <label for "question">Message:</label>
+                        <br>
+                        <textarea type="text" name="question" id="question" value="" required></textarea>
+                    
+                </fieldset>    
+                    <br>
+                <button class="sub-button" type="submit"><a href="thank-you-pg.html">submit!</button>
+                
+            </form>
+        </section>
+        
+    </div>
+</body>  
+</html>
