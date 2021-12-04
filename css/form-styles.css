@@ -110,7 +110,7 @@ ul{
 .contact-info{
     
     grid-row: 3/4;
-    background:#A9BCD080; 
+    background:#D8DBE290; 
     width: 85%;
     margin: 0 auto;
     text-align: center;
@@ -125,7 +125,7 @@ ul{
 .form{
     grid-row: 4/5;
     flex-direction: column;
-    background:#A9BCD080; 
+    background:#D8DBE290; 
     
     width: 80%;
     margin: 0 auto;
@@ -185,7 +185,7 @@ textarea:focus{
 .application-form{
     width: 85%;
     margin: 0 auto;
-    background:#A9BCD080;
+    background:#D8DBE290;
     padding: 1rem;
     display: flex;
     margin-bottom: 1rem;
@@ -193,7 +193,7 @@ textarea:focus{
 .join-us{
     width: 85%;
     grid-row: 3/4;
-    background:#A9BCD080;
+    background:#D8DBE290;
     width: 85%;
     margin: 0 auto;
     text-align: center;
@@ -205,7 +205,7 @@ textarea:focus{
 
 }
 .thank-you{
-    background:#A9BCD080;
+    background:#D8DBE290;
     width: 80%;
     margin: 0 auto;
     text-align: center;
